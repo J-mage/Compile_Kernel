@@ -10,7 +10,7 @@ on:
       CHECKOUT_REPO:
         description: '需要拉取的仓库'
         required: true
-        default: 'PPKunOfficial'
+        default: 'PP-kernel-dipper'
       CHECKOUT_BRANCH:
         description: '需要拉取的分支'
         required: true
