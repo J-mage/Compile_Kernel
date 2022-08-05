@@ -10,15 +10,15 @@ on:
       CHECKOUT_REPO:
         description: '需要拉取的仓库'
         required: true
-        default: 'android_kernel_xiaomi_sdm845'
+        default: 'PPKunOfficial'
       CHECKOUT_BRANCH:
         description: '需要拉取的分支'
         required: true
-        default: 'lineage-19.1'
+        default: 'dev'
       USEDEFCONFIG:
         description: '使用的defconfig'
         required: true
-        default: 'dipper_defconfig_XPH'
+        default: 'dipper_defconfig'
       USE_LANZOU:
         description: '是否上传到蓝奏云'
         required: true
